@@ -1,0 +1,324 @@
+#menu__toggle {
+    opacity: 0;
+}
+.hamburger-menu {
+position: fixed;
+left: 80%;
+top: 10px;
+}
+  .menu__btn {
+    display: flex; 
+    align-items: center;  
+    position: fixed;
+    top: 10x;
+    left: 80%;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 200px;
+    height: 150px;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+body {
+    background: #0A0A0A;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.first_screen {
+    display: flex;
+    justify-content: center;
+    background: url(../fotos/line.png)no-repeat;
+    
+}
+.fs_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 60px; 
+}
+.header_text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 800px;
+    gap: 50px;
+  }
+  .h_text {
+    display: flex;
+    cursor: pointer;
+    font-family:"Roboto Slab";
+}
+.scroll-btn1{
+  display: flex;
+  cursor: pointer;
+  font-family:"Roboto Slab";
+  border: none;
+  color: white;
+  background: none;
+  font-size: 16px;
+}
+.scroll-btn2{
+  display: flex;
+  cursor: pointer;
+  font-family:"Roboto Slab";
+  border: none;
+  color: white;
+  background: none;
+  font-size: 16px;
+  
+}
+.scroll-btn3{
+  display: flex;
+  cursor: pointer;
+  font-family:"Roboto Slab";
+  border: none;
+  color: white;
+  background: none;
+  font-size: 16px;
+}
+.scroll-btn4{
+  display: flex;
+  cursor: pointer;
+  font-family:"Roboto Slab";
+  border: none;
+  color: white;
+  background: none;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.scroll-btn5{
+  display: flex;
+  cursor: pointer;
+  font-family:"Roboto Slab";
+  border: none;
+  color: white;
+  background: none;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.scroll-btn6{
+  display: flex;
+  cursor: pointer;
+  font-family:"Roboto Slab";
+  border: none;
+  color: white;
+  background: none;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.scroll-btn1:hover{
+  color: #FF4900;
+  transition: .5s;
+} 
+.scroll-btn2:hover{
+  color: #FF4900;
+  transition: .5s;
+}
+.scroll-btn3:hover{
+  color: #FF4900;
+  transition: .5s;
+}
+.scroll-btn4:hover{
+  color: #FF4900;
+  transition: .5s;
+} 
+.scroll-btn5:hover{
+  color: #FF4900;
+  transition: .5s;
+}
+.scroll-btn6:hover{
+  color: #FF4900;
+  transition: .5s;
+}
+.header_logo {
+display: flex;
+font-family: "Spartan" ;
+color: white;
+height: 30px;
+font-size: 20px;
+cursor: pointer;
+}
+.fs_center {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    height: 800px;
+    margin-top: 50px;
+    color: white;
+}
+.center_text {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    font-family: "Roboto Slab";
+    font-size: 120px;
+}
+.center_book {
+    height: 500px;    
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto Slab";
+}
+.buy_amaz {
+    width: 266px;
+    height: 238px;    
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.book {
+  display: flex;
+}
+.book_img {
+  width:  500px;
+}
+.vam {
+    max-height: 52px;
+}
+.dol {
+    font-size: 26px;
+}
+.amaz_buy_but {
+  width: 275px;
+  height: 54px;
+  background-color: Transparent;
+  border: 2px solid #FF4900;
+  color: white;
+  font-family: "Roboto Slab";
+  font-size: 16px; 
+  cursor: pointer;
+}
+.amaz_buy_but:hover{
+  border: 2px solid white;
+  color: #FF4900;
+  transition: .5s;
+
+}
+@media screen and (max-width:1137px) {
+    .header_text {
+        display: none;
+    }
+    .menu__btn {
+        display: block;
+    }
+    
+}
+@media screen and (max-width:1067px) {
+.fs_center {
+  max-width:600px ;
+}
+.center_text {
+  font-size:60px ;
+}
+.center_book {
+  flex-direction: column-reverse;
+}
+.book {
+  max-width: 400px;
+}
+.book_img {
+  max-width: 400px;
+}
+}
+@media screen and (max-width:433px) {
+  .center_text {
+    text-align: center;
+    font-size: 40px;
+  }
+  .book {
+    max-width: 250px;
+  }
+  .book_img {
+    max-width: 250px;
+  }
+}

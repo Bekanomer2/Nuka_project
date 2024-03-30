@@ -1,0 +1,43 @@
+
+.kar_text_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+.k_text {
+    max-width: 675px;
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 100px;
+    
+    text-align: start;
+}
+.k_s_text {
+    max-width: 500px;
+    line-height: 5px;
+}
+.k_block {
+    max-width: 400px;
+}
+.karandash {
+    max-width: 400px;
+}
+@media screen and (max-width:923px) {
+    .k_block {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:508px) {
+    .k_text {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:414px) {
+    .k_block {
+        max-width: 300px;
+    }
+    .karandash {
+        max-width: 300px;
+    }
+}

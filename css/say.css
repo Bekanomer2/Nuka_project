@@ -1,0 +1,96 @@
+.say {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.say_text {
+    font-size: 100px;
+    color: white;
+    line-height: 80px;
+    font-family: "Roboto Slab";
+}
+.say_danie {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 18px;
+    margin-top: 100px;
+}
+.say_men {
+    
+    margin-left: 50px;
+    
+    
+}
+input {
+    width: 671px;
+    background: transparent;
+    color: white;
+    
+}
+.t_name {
+    margin-top: 50px;
+}
+.t_soob {
+    margin-top: 50px;
+}
+.say_mail {
+    color: white;
+    width: 320px;
+    height: 162px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mail_block {
+    width: 320px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.num {
+    font-family: "Roboto Slab";
+    font-size: 40px;
+}
+.send {
+    width: 275px;
+    height: 54px;
+    margin-top: 50px;
+    background-color: Transparent;
+    border: 2px solid #FF4900;
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+}
+.send:hover{
+    border: 2px solid white;
+    color: #FF4900;
+    transition: .5s;
+  
+}
+@media screen and (max-width:1054px) {
+    .say_men {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:732px) {
+    input {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width:450px) {
+    .say_text {
+        font-size: 60px;
+    }
+    .say_men {
+        margin-left: 0;
+    }
+}
+
+

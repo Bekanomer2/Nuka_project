@@ -1,0 +1,165 @@
+.we {
+    
+    background: url(../fotos/line_zak.png)no-repeat;
+    background-size: cover ;
+    background-position-y: -200px;
+   
+    margin-top: 200px;
+}
+.team {
+    max-width: 1010px;
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team_text {
+    font-size: 100px;
+    font-family: "Roboto Slab";
+}
+.team_blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.t_1_ava {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+.nik_name {
+    width: 184px;
+    height: 207px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.name_line {
+    width: 30px;
+    height: 0;
+    border: 1px solid white;
+}
+.t_1_text {
+    font-size: 18px;
+    font-family: "Roboto Slab";
+    margin-top: 130px;
+}
+
+.zakaz {
+    
+   max-width: 1124px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.zakaz_bloknot {
+    width: 450px;
+    
+}
+.bloknots {
+    width: 450px;
+    height: 518px;
+}
+.zakaz_text {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    
+}
+.z_text {
+    font-size: 100px;
+    font-family: "Roboto Slab";
+    line-height: 100px;
+}
+.amaz_but {
+    
+    display: flex;
+    flex-direction: column;
+    height: 214px;
+    width: 275px;
+    justify-content: space-between;
+    
+}
+.color {
+    display: flex;
+    
+    max-width: 220px;
+    justify-content: space-between;
+    font-family: "Roboto Slab";
+    
+    
+}
+.white {
+    display: flex;
+    align-items: center;
+    
+}
+.black {
+    
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:954px) {
+    .team_blocks {
+        justify-content: center;
+    }
+    
+    
+}
+@media screen and (max-width:450px) {
+    .team_text {
+        font-size: 60px;
+    }
+    .t_1_text {
+        font-size: 15px;
+    }
+    .t_1_text {
+        margin-top: 10px;
+    }
+    .zakaz {
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width:940px) {
+  .zakaz_text {
+      margin-left: 0;
+  }
+}
+
+@media screen and (max-width:456px) {
+    .z_text {
+        font-size: 60px;
+    }
+    .zakaz_bloknot {
+        max-width: 300px;
+    }
+    .bloknots {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width:908px) {
+    .zakaz {
+        margin-top: 300px;
+    }
+}
+
+
+
+

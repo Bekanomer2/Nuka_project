@@ -1,0 +1,79 @@
+.kosmos {
+    height: 800px;
+    
+    color: white;
+    background: url(../fotos/line_kosmos.png)no-repeat;
+    background-position-y: -400px;
+    
+    margin-top: 200px;
+}
+.kosmos_block {
+    max-width: 1065px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 auto;
+}
+.kos_text_mini {
+    font-weight: bold;
+    color: rgb(185, 185, 185);
+    text-align: center;
+}
+.kos_text {
+    font-size: 100px;
+    font-family: "Roboto Slab";
+    line-height: 100px;
+    
+    text-align: center;
+}
+.kos_video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+.k_video {
+    width: 630px;
+    height: 378px;
+    
+    
+   
+}
+
+
+.video_text {
+    
+    font-weight: bold;
+    max-width: 293px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text_blocks {
+    color: #FF4900;
+    word-spacing: 18px;
+}
+@media screen and (max-width:628px) {
+    .k_video {
+        max-width:300px;
+        
+    }
+    .video_noku {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width:428px) {
+    .kos_text {
+        font-size: 70px;
+    }
+}
+@media screen and (max-width:928px) {
+    .video_text {
+        margin-top: 20px;
+    }
+    .kosmos {
+        height:1300px;
+    }
+}
